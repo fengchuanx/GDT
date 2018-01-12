@@ -160,32 +160,24 @@
  *  原生广告加载广告数据失败回调
  */
 -(void)nativeAdFailToLoad:(NSError *)error {
-
 }
 
-- (void)nativeAdWillPresentScreen;
-{
-    NSLog(@"%s", __func__);
-
+- (void)nativeAdWillPresentScreen {
+//    NSLog(@"%s", __func__);
 }
 
 /**
  *  原生广告点击之后应用进入后台时回调
  */
-- (void)nativeAdApplicationWillEnterBackground;
-{
-
-    NSLog(@"%s", __func__);
-
+- (void)nativeAdApplicationWillEnterBackground {
+//    NSLog(@"%s", __func__);
 }
 
 /**
  * 原生广告点击以后，内置AppStore或是内置浏览器被关闭时回调
  */
-- (void)nativeAdClosed;
-{
-    NSLog(@"%s", __func__);
-
+- (void)nativeAdClosed {
+//    NSLog(@"%s", __func__);
 }
 
 
